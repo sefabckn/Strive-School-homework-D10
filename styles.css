@@ -14,7 +14,22 @@ h1 {
     align-content: center;
 }
 
+.border {
+    border-radius: 15px;
+    text-align: "center";
+    align-content: "center";
+}
+
 a {
     color: crimson;
     align-content: center;
+}
+
+table td {
+    border-color: green;
+}
+
+tr.border-bottom {
+    border-style: dotted;
+    border-color: red;
 }
