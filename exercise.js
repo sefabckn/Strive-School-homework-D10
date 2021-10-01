@@ -15,3 +15,38 @@
 let x = "John"
 let y = "Doe"
 console.log(x + "<>" + y)
+
+const myObject = {
+    name: "sefa",
+    surname: "bockun",
+    email: "sefabckn@gmail.com"
+}
+delete myObject.email
+
+let myArray = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"]
+for (strings of myArray) {
+    console.log(strings)
+}
+let emptyArray = []
+for (i = 0; i <= 100; i++) {
+    let generatedNumbers = Math.floor(Math.random() * i)
+    emptyArray.push(generatedNumbers)
+}
+console.log(emptyArray)
+
+
+/*
+
+let getMaxVal = function() {
+    let maxValue = emptyArray[0]
+    for (i = 0; i < emptyArray.length; i++) {
+        if (emptyArray[i] > maxValue) {
+            maxValue = emptyArray[i]
+        } else() {
+            Math.min(emptyArray[i])
+        }
+        return maxValue
+    }
+}
+
+getMaxVal()*/
